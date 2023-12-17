@@ -90,7 +90,7 @@
     display: flex;
     /* justify-content: space-evenly; */
     gap: 10px;
-    padding: 5px;
+
     /* border: black solid 5px; */
     /* border-radius: 5px; */
 }
@@ -115,7 +115,7 @@
 /* ---@@-- DIV --@@--- */
 /* Upper Body Div */
 
-.upperBody {
+.aboveMainBody {
     display: flex;
     justify-content: center;
     /* border: orange solid 3px; */
@@ -155,27 +155,47 @@ h1 {
 
 
 /* ---@@-- DIV --@@--- */
-/* Main Body Star div */
+/* Main Body Start div */
 .mainBody {
-    /* display: flex; */
-    background-color: aqua;
-    height: 400vh;
-    width: 400vw;
-}
+    display: flex;
+    justify-content: space-between;
 
-.innerMainBody {
+    background-color: aqua;
+    height: 200vh;
+    /* width: 400vw; */
+}
+.innerMainBodyLeft {
     /* display: flex; */
     /* flex-direction: column; */
-    border: solid black 1px;
+    /* border: solid black 1px; */
     background-color: #dc7a53;
-    /* height: 100vh;
-    width: 100vw; */
+    height: 50vh;
+    width: 15vw;
 }
+.innerMainBodyMiddle {
+    background-color: yellowgreen;
+    height: 50vh;
+    width: 60vw;
+}
+.innerMainBodyRight {
+    background-color: plum;
+    height: 50vh;
+    width: 15vw;
+}
+/* Main Body End div */
+/* ---@@-- DIV --@@--- */
+
+
+/* Inner main body Div Edits */
+
+
+
+
 
 
 
 /* ---@@-- DIV --@@--- */
-
+/* The Logo on the TOP LEFT will Shake! */
 #sizeUpImg:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 1.5s;

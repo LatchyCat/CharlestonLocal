@@ -1,9 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:200,400,400i,700");
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
+	font-family: Lato, sans-serif;
 }
+
+/* Default styles for light mode */
+body {
+    background-color: white;
+    color: black;
+}
+/* Dark mode styles */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+#looks {
+    border: solid black 3px;
+    border-radius: 5px;
+    box-shadow: 6px 9px 8px;
+}
+
 
 /* left LogoBar */
 .topNavBar {
@@ -23,7 +45,7 @@
     /* border: solid black 10px; */
     border-radius: 5px;
     justify-content: space-between;
-    width: 75vw;
+    width: 80vw;
     height: 23vh;
     align-items: center;
 }
@@ -160,39 +182,85 @@ h1 {
     display: flex;
     justify-content: space-between;
 
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 200vh;
     /* width: 400vw; */
 }
 .innerMainBodyLeft {
-    /* display: flex; */
+    display: flex;
     /* flex-direction: column; */
-    /* border: solid black 1px; */
-    background-color: #dc7a53;
+    align-items: center;
+    /* background-color: #dc7a53; */
     height: 50vh;
-    width: 15vw;
+    width: 16.5vw;
 }
 .innerMainBodyMiddle {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     height: 50vh;
     width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    border-left: #dc7a53 solid 5px;
+    border-right: #dc7a53 solid 5px;
 }
 .innerMainBodyRight {
-    background-color: plum;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* background-color: #dc7a53; */
     height: 50vh;
-    width: 15vw;
+    width: 16.5vw;
 }
 /* Main Body End div */
 /* ---@@-- DIV --@@--- */
 
 
-/* Inner main body Div Edits */
+
+/* ---@@-- DIV --@@--- */
+/* Inner main body Div Edits START*/
+.startWalkingHere {
+    /* background-color: plum; */
+    height: 25vh;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* gap: 20px; */
+    /* border: black solid 5px; */
+    margin-top: 20px;
+
+}
+.startWalkingHere img {
+    height: 16vh;
+    width: 20vw;
+    border: orangered solid 5px;
+
+}
+.googleMapsEdit {
+    border: black solid 5px;
+    height: 41vh;
+    margin-top: 20px;
+}
+/* Inner main body Div Edits END*/
+/* ---@@-- DIV --@@--- */
 
 
-
-
-
-
+/* ---@@-- DIV --@@--- */
+.adRev {
+    border: orangered solid 5px;
+    height: 35vh;
+    width: 17vw;
+    /* margin: 5px; */
+}
+.adPicReSize {
+    height: 31vh;
+    width: 16vw;
+}
+.adPicReSize2 {
+    height: 31vh;
+    width: 16vw;
+}
+/* ---@@-- DIV --@@--- */
 
 /* ---@@-- DIV --@@--- */
 /* The Logo on the TOP LEFT will Shake! */

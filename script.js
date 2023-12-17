@@ -31,3 +31,27 @@ function setCurrentDatetime() {
 }
 
 setCurrentDatetime();
+
+
+
+// Initialize dark mode state to false (light mode)
+var isDarkMode = false;
+
+// Toggle dark mode
+function toggleDarkMode() {
+    var element = document.body;
+
+    // Toggle the dark mode state
+    isDarkMode = !isDarkMode;
+
+    // Remove both classes and apply the appropriate class based on the state
+    element.classList.remove("light-mode", "dark-mode");
+    element.classList.add(isDarkMode ? "light-mode" : "dark-mode");
+
+    // Update button text
+    var darkModeButton = document.querySelector('.dark-mode-toggle');
+    darkModeButton.textContent = isDarkMode ? "🌕🧛Moon" : "☀️🏖️Sun";
+}
+
+// Ensure the initial state is light mode
+toggleDarkMode();

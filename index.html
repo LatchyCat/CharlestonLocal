@@ -11,21 +11,88 @@
     <header>
         <div class="topNavBar">
 
+            <div class="innerTopNavBar">
             <!-- image and A tag Logo flex-start-->
             <!-- LEFT SIDE OF NAVBAR -->
-            <div class="topNavLogoBar"></div>
+            <div class="topNavLogoBar">
+                <a href="https://latchycat.github.io/CharlestonLocal/" onclick="goToMainPage()"> <img id="sizeUpImg"  src="images/Logo.png" alt="Logo"> </a>
+            </div>
 
             <!-- UL with 5Li's (5 A tags in the Li's) -->
             <!-- MIDDLE OF NAVBAR -->
-            <div class="topNavMenuBar"></div>
+            <div class="topNavMenuBar">
+                <ul id="menuList">
+                    <!-- First Option -->
+                    <li id="optBorder">
+                        <label for="categoryDropdown">Category's:</label>
+                        <select id="categoryDropdown" onchange="navigateToCategory()">
+                            <option value="" selected disabled>Select an Event</option>
+                            <option value="clubs">🕺🏾Clubs</option>
+                            <option value="strip Clubs">🎣Strip Clubs</option>
+                            <option value="bars">🍻Bars</option>
+                            <option value="restaurants">🍕Restaurants</option>
+                            <option value="parks">🏞️Parks</option>
+                        </select>
+                    </li>
+
+
+
+                    <!-- Li DIFF -->
+                    <!-- Second Option -->
+                    <li id="optBorder">
+                        <button type="button"> Juicy Juice <a href="http://"></a></button>
+                    </li>
+
+                    <!-- Li DIFF -->
+                    <!-- Third Option -->
+                    <li id="optBorder"> <button type="button"> Apple Sauce <a href="http://"></a></button> </li>
+
+
+                    <!-- Reviewing and adding more tabs later -->
+
+
+                    <!-- Li DIFF -->
+                    <!-- Fourth Option -->
+                    <!-- <li></li> -->
+
+
+
+                    <!-- Li DIFF -->
+                    <!-- Fifth Option -->
+                    <!-- <li></li> -->
+                </ul>
+            </div>
 
             <!-- Actions bar - 1 BTN, 2 A tags -->
-            <!-- RIGHT SIDE OF NAVBAR -->
-            <div class="topNavActionsBar"></div>
+            <!-- Start RIGHT SIDE OF NAVBAR -->
+            <div class="topNavActionsBar">
+
+
+                <div class="diffActionBar">
+                    <input id="searchInput" type="search" name="search" placeholder="🔍Search...">
+                    <input id="datetimeInput" type="datetime-local" name="datetime" readonly>
+                </div>
+
+
+            </div>
+            <!-- End RIGHT SIDE OF NAVBAR -->
+        </div>
+
         </div>
     </header>
 
 
+        <!-- Start of upperBody -->
+    <div class="upperBody"> <h1 class="titleLeft">Charleston</h1> <h1 class="titleRight">Local</h1> </div>
+        <!-- End of upperBody -->
+
+
+
+
+        <!-- Start of Body -->
+        <div class="mainBody"></div>
+
+        <!-- End of Body -->
     <script src="script.js"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    }
+}
 
 /* left LogoBar */
 .topNavBar {
@@ -17,6 +17,7 @@
     /* width: 80vw; */
 
 }
+
 .innerTopNavBar {
     display: flex;
     /* border: solid black 10px; */
@@ -26,9 +27,11 @@
     height: 23vh;
     align-items: center;
 }
+
 #sizeUpImg {
     height: 20vh;
 }
+
 #sizeUpImg {
     transition: transform 0.3s ease-in-out;
 }
@@ -46,6 +49,7 @@
     justify-content: space-evenly;
     width: 500px;
 }
+
 #menuList {
     /* border: solid black 5px; */
     display: flex;
@@ -53,15 +57,18 @@
     align-items: center;
     width: 500px;
 }
+
 #optBorder {
     border: solid black 3px;
     box-shadow: 6px 9px 8px;
     /* background-color: black; */
     border-radius: 5px;
 }
+
 #optBorder {
     transition: transform 0.3s ease-in-out;
 }
+
 #optBorder:hover {
     background-color: white;
     transform: scale(1.1);
@@ -78,6 +85,7 @@
     /* border: saddlebrown solid 10px; */
     /* padding: 5px; */
 }
+
 .diffActionBar {
     display: flex;
     /* justify-content: space-evenly; */
@@ -113,10 +121,12 @@
     /* border: orange solid 3px; */
     gap: 8px;
 }
+
 .titleLeft {
     color: #dc7a53;
     /* border: solid black 3px; */
 }
+
 /* .titleRight{
 
 } */
@@ -136,6 +146,7 @@ h1 {
     border-bottom: 3px solid orange;
     padding-bottom: 1px;
 }
+
 /* ---@@-- STYLE UNDERLINE --@@--- */
 /* Lines under each tag (logo, Li, inputs, and h1 tag ) */
 
@@ -146,6 +157,79 @@ h1 {
 /* ---@@-- DIV --@@--- */
 /* Main Body Star div */
 .mainBody {
-    /* border: pink solid 10px; */
-    background-color: pink;
+    /* display: flex; */
+    background-color: aqua;
+    height: 400vh;
+    width: 400vw;
 }
+
+.innerMainBody {
+    /* display: flex; */
+    /* flex-direction: column; */
+    border: solid black 1px;
+    background-color: #dc7a53;
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+
+
+/* ---@@-- DIV --@@--- */
+
+#sizeUpImg:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 1.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+
+/* ---@@-- DIV --@@--- */

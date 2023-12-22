@@ -30,7 +30,7 @@
 
 /* --@@-- Middle of the top nav bar --@@--   */
 .topNavMiddle {
-    background-color: orange;
+    background-color: lightblue;
     border: solid black 5px;
     height: 15vh;
     width: 25vw;
@@ -59,7 +59,7 @@
     top: -12px;
     text-align: center;
     border-radius: 25px;
-    transform: rotate(20deg);
+    transform: rotate(25deg);
     background-color: #ff9800;
     color: white;
 }
@@ -103,7 +103,7 @@
     top: -12px;
     text-align: center;
     border-radius: 25px;
-    transform: rotate(35deg);
+    transform: rotate(20deg);
     background-color: orange;
     color: white;
     z-index: 2;
@@ -120,6 +120,7 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    /* border: solid black 5px; */
 }
 
 .titleBox {
@@ -140,6 +141,31 @@
     color: black;
 }
 
+/* --@@-- Test */
+.imageTitleContainer {
+    background-image: url("images/king-street-charleston.jpg");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    width: 1300px;
+}
+
+.titleText {
+    background-color: black;
+    color: white;
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
+
 /* End of Hero section */
 
 
@@ -158,7 +184,7 @@
 /* Callout header */
 .callout-header {
     padding: 25px 15px;
-    background: #555;
+    background: black;
     font-size: 30px;
     color: white;
 }
@@ -166,7 +192,7 @@
 /* Callout container/body */
 .callout-container {
     padding: 15px;
-    background-color: #ccc;
+    background-color: lightskyblue;
     color: black
 }
 
@@ -190,36 +216,71 @@
     background-color: yellow;
     height: 120vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
+    border: solid black 10px;
 }
 
 /* Start main body LEFT side  */
 .mainBodyLeft {
     background-color: chartreuse;
     /* height: 15vh; */
-    width: 30vw;
+    width: 20vw;
 }
+
 /*  --@@-- END main body LEFT side  */
 
-            /* CONNECT */
+/* CONNECT */
 
 /*  --@@-- Start main body MIDDLE side  */
 .mainBodyMiddle {
     background-color: darkkhaki;
     /* height: 15vh; */
-    width: 30vw;
+    width: 55vw;
 }
+
+/* Remove dots from the unordered list */
+.mainBodyMiddle ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the anchor tags */
+.mainBodyMiddle ul li.statsPlacement a {
+    text-decoration: none;
+    /* Remove underline */
+    color: #333;
+    /* Set the text color */
+    display: block;
+    /* Make the entire area clickable */
+    padding: 10px;
+    /* Add padding for better click area */
+    border-bottom: 1px solid #ddd;
+    /* Add a bottom border for separation */
+}
+
+/* Style for the last anchor to remove the bottom border */
+.mainBodyMiddle ul li.statsPlacement:last-child a {
+    border-bottom: none;
+}
+
+/* Hover effect for the anchor tags */
+.mainBodyMiddle ul li.statsPlacement a:hover {
+    background-color: #f0f0f0;
+    /* Change background color on hover */
+}
+
 /*  --@@-- End main body MIDDLE side  */
 
 
-            /* CONNECT */
+/* CONNECT */
 
 /*  --@@-- Start main body RIGHT side  */
 .mainBodyRight {
     background-color: deeppink;
     /* height: 15vh; */
-    width: 30vw;
+    width: 20vw;
 }
 
 /* --@@-- END of MAIN --@@-- */

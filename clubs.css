@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    .topNav {
+        background-color: aquamarine;
+        border: solid black 10px;
+        height: 30vh;
+    }
+
+    .topNavLeft {
+        background-color: palevioletred;
+        border: solid black 10px;
+        height: 10vh;
+    }

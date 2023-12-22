@@ -96,7 +96,7 @@
 
 #musicBarContainer .rightRibbon {
     width: 100px;
-    font-size: 30px;
+    font-size: 20px;
     padding: 4px;
     position: absolute;
     right: -35px;
@@ -146,6 +146,7 @@
 
 /* --@@-- Start of MAIN --@@-- */
 /* Callout box - fixed position at the bottom of the page */
+
 .callout {
     position: fixed;
     bottom: 35px;
@@ -185,22 +186,40 @@
 }
 
 
-
+.main {
+    background-color: yellow;
+    height: 120vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
 
 /* Start main body LEFT side  */
 .mainBodyLeft {
     background-color: chartreuse;
+    /* height: 15vh; */
+    width: 30vw;
 }
 /*  --@@-- END main body LEFT side  */
 
+            /* CONNECT */
 
 /*  --@@-- Start main body MIDDLE side  */
 .mainBodyMiddle {
     background-color: darkkhaki;
+    /* height: 15vh; */
+    width: 30vw;
 }
 /*  --@@-- End main body MIDDLE side  */
 
 
+            /* CONNECT */
 
 /*  --@@-- Start main body RIGHT side  */
+.mainBodyRight {
+    background-color: deeppink;
+    /* height: 15vh; */
+    width: 30vw;
+}
+
 /* --@@-- END of MAIN --@@-- */

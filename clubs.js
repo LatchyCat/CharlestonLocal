@@ -6,3 +6,4 @@ function navigateToCategory() {
         window.location.href = selectedOption + ".html";
     }
 }
+

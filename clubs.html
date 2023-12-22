@@ -1,53 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clubs</title>
     <link rel="stylesheet" href="clubs.css">
 </head>
+
 <body>
-            <!-- start of top navigator -->
+
+    <!-- start of top navigator -->
     <div class="topNav">
 
-        <div class="topNavLeft"><a href="http://"> <img src="" alt=""> </a> </div>
+        <div class="topNavLeft">
+            <a href=href="https://latchycat.github.io/CharlestonLocal/"> <img id="logoImgClubs"
+                    src="images/resizeLogo.png" alt="resizeLogo"> </a>
+        </div>
 
-            <!-- Start middle navigator inner -->
+        <!-- Start middle navigator inner -->
         <div class="topNavMiddle">
 
-            <div class="innerMiddleTopNavLeft"></div>
+            <div class="innerMiddleTopNavLeft">
+                <button class="btn">A cool button<span class="ribbonMiddle">⬅️ Past</span></button>
+            </div>
 
-            <div class="innerMiddleTopNavRight"></div>
+            <div class="innerMiddleTopNavRight">
+                <button class="btn" onclick="snackBar()">A cool button<span class="ribbonMiddle">Future</span></button>
+
+            </div>
 
         </div>
-            <!-- End middle navigator inner -->
+        <!-- End middle navigator inner -->
 
-        <div class="topNavRight"></div>
-    </div>
-            <!-- End of top navigator -->
-
-
-
-            <!-- start of hero navigator -->
-            <div class="heroBox">
-                <div class="titleBox"> <h1>Title</h1> </div>
+        <div class="topNavRight">
+            <!-- Test audio -->
+            <div id="musicBarContainer">
+                <audio id="musicBar" controls
+                    src="video to mp3/Y2meta.app - Pooh Shiesty - Twerksum [Official Video] (128 kbps).mp3"></audio>
+                <span class="rightRibbon">Hot 🔥</span>
             </div>
-            <!-- End of hero navigator -->
+        </div>
+        <!-- End of TOP NAV RIGHT -->
+
+    </div>
+    <!-- End of top navigator -->
 
 
-            <!-- start of main body -->
-            <div class="mainBodyLeft"><img src="" alt=""></div>
 
-                <!-- S-F tier list image -->
-            <div class="mainBody"><img src="" alt=""></div>
+    <!-- start of hero navigator -->
+    <div class="heroBox">
 
-            <div class="mainBodyRight"><img src="" alt=""></div>
-            <!-- End of main body -->
+        <div class="titleBox">
+            <h1 class="titleLeft">Charleston</h1>
+            <h1 class="titleRight">Local</h1>
+        </div>
+
+    </div>
+    <!-- End of hero navigator -->
 
 
-            <div class="footer"> <p></p> <button type="button"> <img src="" alt=""></button> </div>
+    <!-- start of main body -->
+    <div class="main">
+
+        <div class="callout">
+            <div class="callout-header">Sign with Gucci man</div>
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <div class="callout-container">
+                <p>Go platinum</p>
+            </div>
+        </div>
+
+        <div class="mainBodyLeft">
+            <img src="" alt="">
+        </div>
+        <!-- S-F tier list image -->
+        <div class="mainBodyMiddle"><img src="" alt=""></div>
+        <div class="mainBodyRight"><img src="" alt=""></div>
+        <!-- End of main body -->
+    </div>
+
+
+    <div class="footer">
+        <p></p> <button type="button"> <img src="" alt=""></button>
+    </div>
+
+
 
     <script src="category.js"></script>
     <script src="clubs.js"></script>
 </body>
+
 </html>

@@ -2,16 +2,205 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    }
+    font-family: fantasy;
+}
 
-    .topNav {
-        background-color: aquamarine;
-        border: solid black 10px;
-        height: 30vh;
-    }
+/* TOP NAVIGATOR */
+.topNav {
+    background-color: aquamarine;
+    border: solid #000000 10px;
+    height: 19vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
 
-    .topNavLeft {
-        background-color: palevioletred;
-        border: solid black 10px;
-        height: 10vh;
-    }
+.topNavLeft {
+    background-color: palevioletred;
+    border: solid black 5px;
+    height: 15vh;
+    width: 25vw;
+}
+
+#logoImgClubs {
+    height: 13vh;
+    width: 10vw;
+}
+
+
+/* --@@-- Middle of the top nav bar --@@--   */
+.topNavMiddle {
+    background-color: orange;
+    border: solid black 5px;
+    height: 15vh;
+    width: 25vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #282A35;
+    color: white;
+    position: relative;
+}
+
+.ribbonMiddle {
+    width: 60px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    right: -25px;
+    top: -12px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: #ff9800;
+    color: white;
+}
+
+
+
+/* --@@-- Right side of top nav --@@-- */
+.topNavRight {
+    background-color: green;
+    border: solid black 5px;
+    height: 15vh;
+    width: 25vw;
+    padding: 20px;
+    position: relative;
+}
+
+#musicBarContainer {
+    position: relative;
+}
+
+#musicBar {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #282A35;
+    color: white;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    /* Lower z-index for the audio tag */
+}
+
+#musicBarContainer .rightRibbon {
+    width: 100px;
+    font-size: 30px;
+    padding: 4px;
+    position: absolute;
+    right: -35px;
+    top: -12px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(35deg);
+    background-color: orange;
+    color: white;
+    z-index: 2;
+    /* Higher z-index for the ribbon */
+}
+
+/* END TOP NAVIGATOR */
+
+
+
+/* Start of Hero section */
+.heroBox {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.titleBox {
+    background-color: cadetblue;
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titleLeft {
+    color: #ff9800;
+}
+
+.titleRight {
+    color: black;
+}
+
+/* End of Hero section */
+
+
+
+/* --@@-- Start of MAIN --@@-- */
+/* Callout box - fixed position at the bottom of the page */
+.callout {
+    position: fixed;
+    bottom: 35px;
+    left: 20px;
+    margin-left: 20px;
+    max-width: 300px;
+}
+
+/* Callout header */
+.callout-header {
+    padding: 25px 15px;
+    background: #555;
+    font-size: 30px;
+    color: white;
+}
+
+/* Callout container/body */
+.callout-container {
+    padding: 15px;
+    background-color: #ccc;
+    color: black
+}
+
+/* Close button */
+.closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Change color on mouse-over */
+.closebtn:hover {
+    color: lightgrey;
+}
+
+
+
+
+/* Start main body LEFT side  */
+.mainBodyLeft {
+    background-color: chartreuse;
+}
+/*  --@@-- END main body LEFT side  */
+
+
+/*  --@@-- Start main body MIDDLE side  */
+.mainBodyMiddle {
+    background-color: darkkhaki;
+}
+/*  --@@-- End main body MIDDLE side  */
+
+
+
+/*  --@@-- Start main body RIGHT side  */
+/* --@@-- END of MAIN --@@-- */

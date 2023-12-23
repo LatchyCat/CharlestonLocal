@@ -143,11 +143,13 @@
 
 /* --@@-- Test */
 .imageTitleContainer {
-    background-image: url("images/king-street-charleston.jpg");
+    background-image: url("images/900xp_500xp_KG_ST.jpeg");
     background-size: cover;
     position: relative;
     height: 300px;
-    width: 1300px;
+    width: 100%;
+    /* border-image-width: 20dvw; */
+
 }
 
 .titleText {

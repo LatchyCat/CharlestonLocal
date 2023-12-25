@@ -140,20 +140,33 @@ body.dark-mode {
 .aboveMainBody {
     display: flex;
     justify-content: center;
-    /* border: orange solid 3px; */
-    gap: 8px;
-}
+    align-items: center;
+    align-self: center;
 
+    /* border: orange solid 3px; */
+}
+.aboveMainLeft {
+    display: flex;
+    gap: 10px;
+    /* border: solid black 10px; */
+}
 .titleLeft {
     color: #dc7a53;
     /* border: solid black 3px; */
 }
 
-/* .titleRight{
 
-} */
+.santaOnPage {
+border: solid black 3px;
 
-
+}
+.santa {
+height: 20vh;
+/* width: 10vw; */
+margin-left: 70px;
+margin-bottom: 70px;
+left: 100px;
+}
 
 
 /* ---@@-- STYLE UNDERLINE --@@--- */

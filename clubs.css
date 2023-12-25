@@ -7,8 +7,8 @@
 
 /* TOP NAVIGATOR */
 .topNav {
-    background-color: aquamarine;
-    border: solid #000000 10px;
+    /* background-color: aquamarine; */
+    border: solid #000000 3px;
     height: 19vh;
     display: flex;
     justify-content: space-around;
@@ -16,8 +16,8 @@
 }
 
 .topNavLeft {
-    background-color: palevioletred;
-    border: solid black 5px;
+    /* background-color: palevioletred; */
+    /* border: solid black 5px; */
     height: 15vh;
     width: 25vw;
 }
@@ -30,8 +30,8 @@
 
 /* --@@-- Middle of the top nav bar --@@--   */
 .topNavMiddle {
-    background-color: lightblue;
-    border: solid black 5px;
+    /* background-color: lightblue; */
+    /* border: solid black 3px; */
     height: 15vh;
     width: 25vw;
     display: flex;
@@ -68,8 +68,8 @@
 
 /* --@@-- Right side of top nav --@@-- */
 .topNavRight {
-    background-color: green;
-    border: solid black 5px;
+    /* background-color: green; */
+    /* border: solid orange 5px; */
     height: 15vh;
     width: 25vw;
     padding: 20px;
@@ -81,8 +81,9 @@
 }
 
 #musicBar {
-    border: none;
-    border-radius: 5px;
+    margin-top: 10px;
+    border: solid;
+    border-radius: 10px;
     padding: 12px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -148,8 +149,7 @@
     position: relative;
     height: 300px;
     width: 100%;
-    /* border-image-width: 20dvw; */
-
+    border-image-width: 20dvw;
 }
 
 .titleText {
@@ -215,7 +215,7 @@
 
 
 .main {
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 120vh;
     display: flex;
     justify-content: space-between;
@@ -225,10 +225,64 @@
 
 /* Start main body LEFT side  */
 .mainBodyLeft {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     /* height: 15vh; */
     width: 20vw;
 }
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: absolute;
+    /* top: 50%; */
+    /* -webkit-transform: translateY(-50%); */
+    /* -ms-transform: translateY(-50%); */
+    /* transform: translateY(-50%); */
+    display: flex;
+    flex-direction: column;
+    border: solid black 3px;
+  }
+
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+
 
 /*  --@@-- END main body LEFT side  */
 
@@ -280,7 +334,7 @@
 
 /*  --@@-- Start main body RIGHT side  */
 .mainBodyRight {
-    background-color: deeppink;
+    /* background-color: deeppink; */
     /* height: 15vh; */
     width: 20vw;
 }
